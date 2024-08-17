@@ -15,11 +15,15 @@ Pasos implementados para llevar a cabo la prueba
 5. Subir el servicio
 6. Consumir los siguientes servicios:
   * Servicio que permite consultar los paises y que tiene implementado el patron circuit breaker
+
     http://localhost:9090/countries
+
     ![image](https://github.com/user-attachments/assets/b362be01-6d98-4e5f-8728-4657f4e9717a)
    
   * Servicio que permite validar el estado del servicio, en este se puede visualizar el estado del circuit breaker
+
     http://localhost:9090/actuator/health
+
     ![image](https://github.com/user-attachments/assets/3dab270f-95d7-4781-8106-21a79d0d1a65)
 
 ## Tecnologías usadas en la prueba (especifique lenguajes, librerías)
